@@ -12,6 +12,18 @@ This script automates the management of AWS EC2 instances, S3 buckets, and Route
    You can install it using pip:
    pip install boto3
 
+## How to Use
+
+1. Clone this repository or copy the script.
+2. Run the script:
+python aws_cli_automation.py
+
+please choose a service to work on:
+1. Instances
+2. S3
+3. Route53
+4. Exit
+
 ### EC2 Instance Management
 
 - **List Instances**: Displays EC2 instances filtered by tags.
@@ -28,17 +40,3 @@ This script automates the management of AWS EC2 instances, S3 buckets, and Route
 
 - **Create Zone**: Creates a new hosted zone in Route 53.
 - **Manage DNS Records**: Allows you to create, delete, or modify DNS records within a hosted zone.
-
-## How to Use
-
-1. Clone this repository or copy the script.
-2. Run the script:
-python aws_cli_automation.py
-
-please choose a service to work on:
-1. Instances
-2. S3
-3. Route53
-4. Exit
-
-
