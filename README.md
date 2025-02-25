@@ -10,7 +10,7 @@ This script automates the management of AWS EC2 instances, S3 buckets, and Route
 
 ## How to Use
 
-1. Clone this repository or copy the script: git clone 
+1. Clone this repository or copy the script: git clone https://github.com/adinitzan/aws_cli_python_project.git
 2. Install dependencies manually: pip install boto3
 3. Configure AWS credentials: aws configure
 4. Run the script:
