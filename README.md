@@ -13,8 +13,7 @@ This script automates the management of AWS EC2 instances, S3 buckets, and Route
 1. Clone this repository or copy the script: git clone https://github.com/adinitzan/aws_cli_python_project.git
 2. Install dependencies manually: pip install boto3
 3. Configure AWS credentials: aws configure
-4. Run the script:
-python aws_cli_automation.py
+4. Run the script: python aws_cli_automation.py
 
 choose a service to work on:
 1. Instances
@@ -25,13 +24,13 @@ choose a service to work on:
 ### EC2 Instance Management
 
 - **List Instances**: Displays EC2 instances filtered by tags.
-- **Create Instance**: Creates a new EC2 instance with a user-defined AMI and instance type: Choose between t3.nano and t4g.nano instance types. Select Amazon Linux or Ubuntu AMI. Restrict instance creation to a maximum of two running instances.
+- **Create Instance**: Creates a new EC2 instance with a user-defined AMI and instance type. You can choose between the t3.nano and t4g.nano instance types, and between Amazon Linux or Ubuntu AMIs. The script restricts the creation of instances to a maximum of two running instances.
 - **Stop, Start, Delete Instances**: Allows you to stop, start, or terminate existing EC2 instances.
 
 ### S3 Bucket Management
 
 - **List Buckets**: Lists all S3 buckets with a specific tag (`Owner: adibeker`).
-- **Create Bucket**: Creates a new S3 bucket and allows you to choose whether the bucket should be public or private: Choose between public and private access. Requires confirmation for public bucket creation.
+- **Create Bucket**: Creates a new S3 bucket and allows you to choose whether the bucket should be public or private. You can select between public and private access. Public bucket creation requires confirmation. The script restricts the creation of buckets to a maximum of two active buckets.
 - **Upload File**: Uploads a file to a specific S3 bucket.
 
 ### Route 53 Zone and Record Management
