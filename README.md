@@ -1,2 +1,1 @@
 # aws_cli_python_project
-aws_cli_python_project
