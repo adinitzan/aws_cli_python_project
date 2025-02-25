@@ -18,7 +18,7 @@ This script automates the management of AWS EC2 instances, S3 buckets, and Route
 2. Run the script:
 python aws_cli_automation.py
 
-please choose a service to work on:
+choose a service to work on:
 1. Instances
 2. S3
 3. Route53
